@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NSUT</title>
+    <link rel="stylesheet" href="navbar.css">
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+    crossorigin="anonymous"></script>
+    <script>
+    $(function() {
+    $(".toggle").on("click", function() {
+        if ($(".item").hasClass("active")) {
+            $(".item").removeClass("active");
+        } else {
+            $(".item").addClass("active");
+        }
+    });
+});
+    </script>
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li class="logo"><img src="./images/NSUT_logo.png" style=" border-radius: 50%; max-width: 120px; height: auto;"></li>
+
+            <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="#"> | About </a></li>
+            <li class="item"><a href="#"> | Administration </a></li>
+            <li class="item"><a href="#"> | Academics </a></li>
+            <li class="item"><a href="#"> | Admissions </a></li>
+            <li class="item"><a href="#"> | Blog </a></li>  
+            <li class="item"><a href="#"> | Gallery </a></li>
+            <li class="item"><a href="#"> | Notices </a></li>
+            <li class="item"><a href="#"> | Contact </a></li>
+            </li>
+            <li class="toggle"><span class="bars"></span></li>
+        </ul>
+    </nav> 
+
+    <div class="campus">
+        <img src="./images/campus.jpg" 
+        style=" 
+        width: 2130px;
+        height: auto ; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center;">
+    </div>
+
+    <div class="about_nsut">
+        <h1> About NSUT</h1>
+       <h2> With reference of Delhi Gazette published on Thursday, September 27, 2018 vide No. F. 14(7)/LA-2015/PF-III/SB(2018)/2017.—In exercise of powers conferred under
+        sub-section (1) of section 3 of The Delhi Netaji Subhas University of Technology Act, 2017 (DELHI ACT 06 of 2018), the Lieutenant Governor of the National Capital
+        Territory of Delhi hereby appoints the 26th September 2018 as the date on which the University by the name of Netaji Subhas University of Technology, shall be
+        established. </h2>
+
+    </div>
+</body>
+</html>
